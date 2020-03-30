@@ -15,6 +15,6 @@ function Circle(x, y, radius, color) {
     };
 }
 
-let circle = new Circle(10, 10, 100, "rgb(0,0,0)");
+let circle = new Circle(10, 10, 100, '#000000');
 ctx = circle.render();
 
